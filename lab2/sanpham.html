@@ -3,17 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ</title>
+    <title>Sản phẩm</title>
     <link rel="shorcut icon" href="../images/favicon.ico">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
-<body>
-    <header>
+<body class="page">
+    <header class="page_header">
         <a class="icon-home" href="./trangchu.html"><img class="logo" src="../images/logo.png" alt=""></a>
+        <img class="img1" src="../images/header-img1.png" alt="">
+        <img class="img2" src="../images/header-img2.png" alt="">
+        <img class="img3" src="../images/header-img3.png" alt="">
         <nav>
             <a class="nav-link" href="trangchu.html">Trang chủ</a>
             <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
@@ -22,15 +23,15 @@
             <a class="nav-link" href="dangnhap.html">Đăng nhập</a>
             <a class="nav-link" href="dangky.html">Đăng ký</a>
             <a class="nav-link" href="lienhe.html">Liên hệ</a>
-            <div class="nav-search-order">
-                <input type="text" placeholder="Nhập nội dung cần tìm...">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                <button><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="nav_search">
+                <form class="search_form" id="formSearch" action="timkiem">
+                    <input type="text" placeholder="Nhập nội dung cần tìm...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </form>
             </div>
         </nav>
-        <img class="img1" src="../images/header-img1.png" alt="">
-        <img class="img2" src="../images/header-img2.png" alt="">
-        <img class="img3" src="../images/header-img3.png" alt="">
+
     </header>
     <main>
         <article>
@@ -152,12 +153,12 @@
             </section>
         </article>
     </main>
-    <footer>
-        <p>&copy 2021 Bản quyền thuộc FreeezeVN
+    <footer class="page_footer">
+        <p class="page_footer_text">&copy 2021 Bản quyền thuộc FreeezeVN
             <a class="footer-icon" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
             <a class="footer-icon" href="https://twitter.com/?lang=vi"><i class="fa-brands fa-twitter"></i></a>
             <a class="footer-icon" href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest"></i></a>
-            <a href="#"><img class="footer-top" src="../images/top.png" alt=""></a>
+            <a href="#top"><img class="footer-top" src="../images/top.png" alt=""></a>
         </p>
     </footer>
 

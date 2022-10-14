@@ -454,3 +454,30 @@ td {
     clear: both;
     text-align: justify;
 }
+
+.img__table {
+    width: 40%;
+}
+
+.td-text {
+    font-size: 20px;
+}
+
+/* dangky */
+.td-icon {
+    width: 40px;
+}
+
+.from__table {
+    width: 50%;
+}
+
+.td--input-radio {
+    font-size: 20px;
+}
+
+.form__table--reset-login,
+.form__table--reset-register,
+.form__table--input-register {
+    font-size: 15px;
+}
